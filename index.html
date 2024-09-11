@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento de Valorant - Inscripción</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Evento de Valorant</h1>
+            <p>¡Los mejores jugadores de Latinoamérica se enfrentan en El Alto, Bolivia!</p>
+            <p class="creator">CREADOR DEL EVENTO WILMER CLETO BAUTISTA LIMACHI</p>
+
+        </header>
+        <section class="event-details">
+            <h2>Detalles del Evento</h2>
+            <p><strong>Fecha:</strong> 15 de septiembre de 2024</p>
+            <p><strong>Hora:</strong> 20:00 - 23:59</p>
+            <p><strong>Lugar:</strong> UPEA - El Alto - La Paz - Bolivia</p>
+        </section>
+        <section class="registration">
+            <h2>Inscríbete para asistir</h2>
+            <form id="registration-form">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="contact">Contacto:</label>
+                <input type="text" id="contact" name="contact" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <button type="submit">Registrar</button>
+            </form>
+            <p id="success-message" class="hidden">¡Registro exitoso! Gracias por inscribirte.</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

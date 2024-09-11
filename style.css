@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-photo/abstract-tech-background-with-wall-hexagons-honeycombs-with-neon-light-them_946657-12960.jpg?w=740');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+    background-image: url('https://th.bing.com/th/id/R.72caea49c56e7ae42069fe854508e772?rik=88h3YzHBiq7fWw&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    color: #000; /* Letra negra */
+    text-shadow: -1px -1px 0 #FF0000, /* B
+*/
+}
+
+header p {
+    color: #ddd;
+}
+
+.event-details, .registration {
+    margin: 20px 0;
+}
+
+.event-details h2, .registration h2 {
+    color: #FFD700;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#success-message {
+    color: #00FF00;
+    text-align: center;
+}
+header h1 {
+    color: #000; /* Letra negra */
+    text-shadow: -1px -1px 0 #FF0000, /* Borde rojo */
+                 1px -1px 0 #FF0000,
+                 -1px 1px 0 #FF0000,
+                 1px 1px 0 #FF0000;
+}
